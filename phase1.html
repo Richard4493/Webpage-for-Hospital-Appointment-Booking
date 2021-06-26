@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Federal Healthcare</title>
+    <link rel="icon" href="icon.jfif" type="image/icon type">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body background-color="red" >
+    <div font="red">
+    <h1 align="center"><font color="blue" size="7">FEDERAL HEALTH CENTER</font></h1>
+    <p align="center" ><font color="blue" size="5" face="cursive">We Care For You</font></p><hr></div>
+    <div>
+    <h2 align="center"><b><u><font color="red" size="6.5" face="calibri">Medical Consultation Appointment Form</font></u></b></h2></div>
+    <div>
+        <h2><u>Personal Details</u></h2>
+        <form name="personal-details">
+            <table>
+                <tr>
+                    <td height="50px" ><label ><font size="5" color="secondary">Name :</font></label></td>
+                    <td height="50px"><input type="text" size="50" placeholder="Name here"></td>
+                </tr>
+                <tr>
+                    <td><label></label></td>
+                </tr>
+                <tr>
+                    <td  height="50px"><label><font size="5" color="secondary" >DOB :</font>
+                    <td><input type="date" ></td>
+                </tr>
+                <tr>
+                    <td height="50px"><label><font size="5" color="secondary">Gender :</font></label></td>
+                    <td>
+                        <input type="radio" id="male" name="gender">
+                        <label for="male" ><font size="5">Male</font></label>&nbsp;&nbsp;
+                        
+                        <input type="radio" id="female" name="gender">
+                        <label for="female"><font size="5">Female</font></label>&nbsp;&nbsp;
+                        
+                        <input type="radio" id="other" name="gender">
+                        <label for="other"><font size="5">Other</font></label>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td height="50px"><label><font size="5" color="secondary">Address :</font></label>
+                    <td><input type="text" size="50" placeholder="address here"></td>
+                </tr>
+                
+                <tr>
+                    <td height="50px"><label><font size="5" color="secondary">Mobile &nbsp;:</font>
+                    <td><input type="tel" placeholder="enter your number here"></td>
+                </tr>
+                
+                <tr>
+                    <td height="50px"><label><font size="5" color="secondary">Mail id &nbsp;:</font>
+                    <td><input type="email" size="50" placeholder="eg:abc@ymail.com"></td>
+                </tr>
+                <tr>
+                    <td><label</td>
+                </tr>
+            </font>
+            </table>
+        </form>
+    </div><hr>
+    <div>
+        <h2><u>Medical Details</u></h2>
+        <form name="medical-details">
+            <table>
+                <tr>
+                    <td height="50px">
+                        <label><font size="5" color="secondary">Reason For Your Visit : </font></label>
+                    </td>
+                    <td><input type="text" size="50" placeholder="type here"></td>
+                </tr>
+                
+            </table>
+            <label><font size="5" color="secondary">Were you affected by Covid-19 virus within last 2 months ? </font></label>
+            <input type="radio" id="y" name="cov-19">
+            <label for="y"><font size="5">Yes</font></label>&nbsp;&nbsp;
+            <input type="radio" id="n" name="cov-19">
+            <label for="n"><font size="5">No</font></label><br><br>
+            <label><font size="5" color="secondary">Have you taken Covid-19 Vaccination ? </font></label>
+            <input type="radio" id="y" name="Vaccination">
+            <label for="y"><font size="5">Yes</font></label>&nbsp;&nbsp;
+            <input type="radio" id="n" name="Vaccination">
+            <label for="n"><font size="5">No</font></label><br><br>
+            <label><font size="5" color="secondary">Have you visited Federal Healthcare before ? </font></label>
+            <input type="radio" id="y" name="Visit">
+            <label for="y"><font size="5">Yes</font></label>&nbsp;&nbsp;
+            <input type="radio" id="n" name="Visit">
+            <label for="n"><font size="5">No</font></label><br><br>
+            <label><font size="5"  color="secondary">Which Department  You Want To Visit ? </font></label>
+                
+            &nbsp;&nbsp;&nbsp;&nbsp; <select name="departments" >
+                                <option >Choose..</option>
+                                <option>Pediatrics</option>
+                                <option>Oncology</option>
+                                <option>Dental</option>
+                                <option>Skin Care</option>
+                                <option>Vaccination Center</option>
+                                <option>Ophthalmology</option>
+                                <option>Psychiatry</option>
+                                <option>Neurology</option>
+                            </select><br><br>
+            
+
+            <label><font size="5" color="secondary">Please Select a date for your consultation :</font></label>
+            &nbsp;&nbsp;&nbsp;&nbsp;<input type="date"><br><br>
+            <label><font size="5" color="secondary">Please Select a Doctor for Appointment :</font></label>
+            &nbsp;&nbsp;&nbsp;&nbsp; <select name="doctors" >
+                <option >Choose..</option>
+                <option>Doctor1</option>
+                <option>Doctor2</option>
+                <option>Doctor3</option>
+                <option>Doctor4</option>
+                
+            </select><br><br>
+            <label><font size="5" color="secondary">Mention the symptoms or abnormalities if you are facing any. Also mention if your body is allergic to anything(medicines or food) : </font></label><br><br>
+            <textarea cols="80" rows="5" placeholder="type here " ></textarea>
+        </form>
+    </div><hr>
+    <div >
+        <p align="center"><font color="blue" size="4">Health is not appreciated until sickness comes,but prevention is always better than cure..</font></p>
+    </div>
+</body>
+</html>
