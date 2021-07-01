@@ -1,0 +1,118 @@
+.header{
+    width: 100%;
+    background-color: rgb(16, 183, 212);
+    color: indigo;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    font-size: larger;
+    height: 150px;
+    
+}
+.header-img{
+    width:15%;
+    height:100%;
+    float: left;
+}
+.header-text{
+    width:70%;
+    height: 100%;
+    float: left;
+    
+}
+.header-img2{
+    
+    width:15%;
+    height:100%;
+    float: left;
+}
+
+.title{
+    width: 100%;
+    height: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: -23px;
+    background-color: rgb(43, 57, 70);
+    color: rgb(235, 225, 225);
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.form1{
+    background-color: rgb(43, 57, 70);
+    width: 100%;
+    height: 455px;
+}
+.form1-left{
+    font-size: 25px;
+    color:rgb(241, 234, 234);
+    padding-top: 5px;
+    margin-top: -23px;
+    padding-left: 60px;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.form1-right{
+    
+    padding-top: 65px;
+   
+    padding-left: 30px;
+    width: 43%;
+    height: 100%;
+    float: left;
+    
+}
+.hr.style-hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+.form-2{
+    background-color: rgb(43, 57, 70);
+    height:790px ;
+    width: 96%;
+    font-size: 25px;
+    color:rgb(241, 234, 234);
+    padding-top: 5px;
+    margin-top: -33px;
+    padding-left: 60px;
+}
+.footer{
+    margin-top: -17px;
+    background-color:rgb(16, 183, 212);
+    height: 80px;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    font-size: large;
+    font-style: italic;
+
+}
+#sub-btn{
+    margin-top: 10px;
+    margin-left: 500px;
+    height: 30px;
+    width: 150px;
+    background-color: blue;
+    color: cornsilk;
+}
+
+#res-btn{
+    margin-left: 30px;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(233, 30, 23);
+    color: cornsilk;
+}
+#sub-btn:hover{
+    background-color: rgb(7, 60, 110);
+}
+#res-btn:hover{
+    background-color: rgb(117, 6, 6);
+}
+.radio-element:hover{
+    color: blue;
+}
